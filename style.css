@@ -1,0 +1,96 @@
+*
+{
+	font-family :sans-serif ;
+	font-size: 14px;
+}
+html,body{
+    height: 100%
+}
+
+#holder{
+    min-height: 100%;
+    position:relative;
+}
+
+#footer{
+	display: block;
+	float:center;
+	text-align:center;
+	background-image: url(texture.jpg);
+	background-repeat:auto;
+	height: 100px; 
+	width:100%;
+       position: absolute;
+	left: 0;
+	bottom: 0; 
+	padding-top:10px;
+}
+
+
+canvas{
+	border:2px solid black;
+	margin: 5px;
+	display:inline-block;
+	
+}
+.cursor{
+cursor: url("knife2.png"), auto;
+}
+#gameContainer{
+	text-align: center;
+}
+
+#game{
+	display: inline-block;
+	margin:auto;
+}
+
+#controls{
+	text-align:center;
+}
+#stats 
+{
+	max-width:600px;'
+	min-height: 4em;
+	border:2px solid black;
+	text-align:center;
+}
+#stats span{
+	
+      vertical-align: center;
+	display:inline-block;
+	padding: 3px;
+	min-width:20%;
+		
+}
+#stats:nth-child(0){
+	
+	 horizontal-align: left;
+		
+}
+#stats:nth-child(2){
+	 horizontal-align: left;
+		
+}
+.smallIcon{
+	width:15px;
+	height:15px;
+	padding:1px;
+}
+ul{
+	list-style:none;
+}
+#score{
+	position:absolute;
+	float:right;
+       border: 1px solid gray;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 5px;
+	text-align:left;
+
+}
+#score ul{
+	padding-left:0px;
+
+}
