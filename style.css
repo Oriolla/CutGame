@@ -16,7 +16,7 @@ html,body{
 	display: block;
 	float:center;
 	text-align:center;
-	background-image: url(text.jpg);
+	background-image: url("text.jpg");
 	background-repeat:auto;
 	height: 100px; 
 	width:100%;
